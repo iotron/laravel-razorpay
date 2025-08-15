@@ -10,10 +10,10 @@ return [
     | Dashboard under Settings > API Keys.
     |
     */
-    
+
     'key' => env('RAZORPAY_KEY'),
     'secret' => env('RAZORPAY_SECRET'),
-    
+
     /*
     |--------------------------------------------------------------------------
     | Webhook Secret
@@ -23,6 +23,6 @@ return [
     | in your Razorpay Dashboard under Settings > Webhooks.
     |
     */
-    
+
     'webhook_secret' => env('RAZORPAY_WEBHOOK_SECRET'),
 ];

@@ -2,8 +2,8 @@
 
 namespace Iotron\LaravelRazorpay\Tests;
 
-use Orchestra\Testbench\TestCase as Orchestra;
 use Iotron\LaravelRazorpay\RazorpayServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
@@ -22,7 +22,7 @@ class TestCase extends Orchestra
     public function getEnvironmentSetUp($app)
     {
         config()->set('database.default', 'testing');
-        
+
         // Set test config
         config()->set('razorpay.key', 'test_key');
         config()->set('razorpay.secret', 'test_secret');
